@@ -54,6 +54,7 @@ export function Slideshow() {
 
   return (
     <div className="slideshow">
+      <h1>Slideshow</h1>
       <div
         className="slideshowSlider"
         style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>

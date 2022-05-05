@@ -5,9 +5,10 @@
 /* Slideshow */
 
 .slideshow {
-  margin: 0 auto;
+  margin: auto;
+  margin-top: 5px;
   overflow: hidden;
-  max-width: 500px;
+  max-width: 760px;
 }
 
 .slideshowSlider {
@@ -17,8 +18,7 @@
 
 .slide {
   display: inline-block;
-
-  height: 400px;
+  height: 450px;
   width: 100%;
   border-radius: 10px;
 }
